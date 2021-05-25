@@ -168,6 +168,10 @@ table {
   }
 }
 
+body {
+  background-color: #272625;
+}
+
 .qutu1 {
   background-color: #272625;
   height: 100vh;
@@ -175,7 +179,7 @@ table {
 
 @media only screen and (max-width: 600px) {
   .qutu1 {
-    height: 200vh;
+    height: 50vh;
   }
 }
 
@@ -345,5 +349,261 @@ table {
   background-color: white;
   -webkit-transition-delay: 0.1s;
           transition-delay: 0.1s;
+}
+
+.ali2020 {
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.ali2020 .as1 {
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.ali2020 .as2 {
+  font-size: 30px;
+  color: orange;
+  font-weight: bold;
+}
+
+.ali2020 .firstp {
+  font-size: 17px;
+  color: grey;
+  line-height: 20px;
+}
+
+.ali2020 .secondp {
+  font-size: 17px;
+  color: grey;
+  line-height: 20px;
+}
+
+.ali2020 .ll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.ali2020 .ll #a111 :hover {
+  color: aqua;
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+
+.ali2020 .ll #a222 :hover {
+  color: darkblue;
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+
+.ali2020 .ll #a333 :hover {
+  color: aqua;
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+
+.ali2020 .ll #a444 :hover {
+  color: palevioletred;
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+
+.ali2020 .ll #a555 :hover {
+  color: aquamarine;
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+
+.ali2020 .ll #a666 :hover {
+  color: red;
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+
+.ali2020 .ii1 {
+  font-size: 55px;
+  color: orange;
+}
+
+.ali2020 .pp1 {
+  border-radius: 50%;
+  border: 10px solid orange;
+}
+
+.ali2020 .asasa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 90%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.sections {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  padding: 0 15px;
+}
+
+.sec1 {
+  background: url(a22.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.prallax {
+  background-position: top center;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  margin-top: 10%;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  -webkit-transition: -webkit-transform 0.6s;
+  transition: -webkit-transform 0.6s;
+  transition: transform 0.6s;
+  transition: transform 0.6s, -webkit-transform 0.6s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  background-image: url(photoNo1.jpg);
+  width: 300px;
+  height: 300px;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  width: 300px;
+  height: 300px;
+  background-image: url(photoNo1.jpg);
+}
+
+@media only screen and (max-width: 600px) {
+  .salam {
+    margin-left: 5%;
+    margin-bottom: 15%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .salam {
+    margin-left: 10%;
+    margin-bottom: 15%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .salam {
+    margin-left: 30%;
+    margin-bottom: 15%;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .ppp1 {
+    font-size: 10px;
+  }
+  .flip-card-back {
+    width: 200px;
+    height: 200px;
+  }
+  .flip-card-front {
+    width: 200px;
+    height: 200px;
+  }
+  .flip-card {
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.yazi1 {
+  color: whitesmoke;
+  font-size: 20px;
+  margin-top: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+  .ppp1 {
+    font-size: 10px;
+  }
+}
+
+.bir1 {
+  color: yellow;
+  font-size: 25px;
+}
+
+.qutu2021 i {
+  color: yellow;
+  font-size: 45px;
+}
+
+.qutu2021 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
 }
 /*# sourceMappingURL=main.css.map */
